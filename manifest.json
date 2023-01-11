@@ -3,9 +3,9 @@
   "name": "pdfExt",
   "version": "0.1",
   "content_scripts": [
-  {
-    "matches": ["https://*/*.pdf"],
-    "js": ["pdfExt.js"]
-  }
+    {
+      "matches": ["https://*/*.pdf", "https://*/*.djvu"],
+      "js": ["pdfExt.js"]
+    }
   ]
 }
