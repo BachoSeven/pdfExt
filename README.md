@@ -2,6 +2,7 @@
 
 A simple manifest v3 extension which exists solely to let me open a PDF in zathura through a custom script; thought up in a hot afternoon with @aziis98 (his version [here](https://github.com/aziis98/ext-open-pdf)).
 
+
 It uses a custom `wza:` protocol which I use since I can then redirect it to my [wza](wza) script which opens the PDF in my favourite reader, [Zathura](https://pwmt.org/projects/zathura).
 
 Fun tip: to make this work super smoothly, you can tweak Chrom{e|ium}'s policies slightly in order to never ask for permission to open the PDF externally through this custom
@@ -17,7 +18,6 @@ Create a random `.json` file in
         "wza:*"
     ]
 }
-
 ```
 
 Sources for the above:
