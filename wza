@@ -6,4 +6,4 @@ if expr "$url" : '^wza:.*'; then
 	url="${1#*:}"
 fi
 
-curl $url $2 | zathura -
+curl -L $url $2 | zathura -
